@@ -1,9 +1,9 @@
 server: # REST and WS server
-  port: ${PORT}
+  port: 443
   address: 0.0.0.0
 lavalink:
   server:
-    password: ${PASSWORD}
+    password: "tegarp"
     sources:
       youtube: true
       bandcamp: true
@@ -40,7 +40,7 @@ sentry:
 logging:
   file:
     max-history: 1
-    max-size: 10MB
+    max-size: 1000MB
   path: ./logs/
 
   level:
